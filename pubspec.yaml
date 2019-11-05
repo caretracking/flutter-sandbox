@@ -30,6 +30,9 @@ dependencies:
   ## consumir dados de API
   http: ^0.12.0+2
 
+  ## Profile
+  cached_network_image: ^1.1.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
