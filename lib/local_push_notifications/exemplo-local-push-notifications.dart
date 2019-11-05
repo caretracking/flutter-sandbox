@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sandbox/widget/local_notification_widget.dart';
+import 'package:flutter_sandbox/local_push_notifications/widget/local_notification_widget.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   final String appTitle = 'Local Notifications';
+
   @override
   Widget build(BuildContext context) => MaterialApp(
     title: appTitle,
+    debugShowCheckedModeBanner: false,
     home: MainPage(appTitle: appTitle),
   );
 }

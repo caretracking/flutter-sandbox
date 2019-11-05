@@ -15,7 +15,7 @@ class SecondPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            'Second page - Payload:',
+            'Second local_push_notifications.page - Payload:',
             style: Theme.of(context).textTheme.title,
           ),
           const SizedBox(height: 8),
