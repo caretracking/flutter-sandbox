@@ -33,6 +33,9 @@ dependencies:
   ## Profile
   cached_network_image: ^1.1.1
 
+  ## Dio (streams api)
+  dio: ^3.0.7
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
